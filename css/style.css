@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+}
+
+.container{
+
+  width: 1500px;
+  height: 750px;
+
+
+}
+
+/*box*/
+
+.box {
+
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+}
+
+.pic1 {
+}
+
+.pic2 {
+}
+
+.pic3 {
+}
+/*etichetta sconto verde*/
+.discount {
+  width: 40px;
+  height: 20px;
+  background: green;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
