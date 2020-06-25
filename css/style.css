@@ -5,11 +5,8 @@
 }
 
 .container{
-
   width: 1500px;
   height: 750px;
-
-
 }
 
 /*box*/
@@ -23,19 +20,26 @@
   border: 1px solid black;
 }
 
-.pic1 {
-}
 
-.pic2 {
-}
-
-.pic3 {
-}
 /*etichetta sconto verde*/
 .discount {
   width: 40px;
   height: 20px;
   background: green;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/*.discount:nth-child(even) {
+  background-color: red;
+}ho provato a dire i pari rossi ma non funzionava. Cosa ho sbagliato?*/
+
+/*etichetta rossa*/
+.discountred {
+  width: 40px;
+  height: 20px;
+  background: red;
   position: absolute;
   top: 0px;
   right: 0px;
