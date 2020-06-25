@@ -19,7 +19,23 @@
   position: relative;
   border: 1px solid black;
 }
+/*foto ipad*/
+.pic1 {
+  background-image: url("../img/pd1.jpg");
+  background-repeat: no-repeat;
+}
+/*foto telefoni*/
 
+.pic2 {
+  background-image: url("../img/pd2.jpg");
+  background-repeat: no-repeat;
+}
+/*foto cuffie*/
+
+.pic3 {
+  background-image: url("../img/pd3.jpg");
+  background-repeat: no-repeat;
+}
 
 /*etichetta sconto verde*/
 .discount {
