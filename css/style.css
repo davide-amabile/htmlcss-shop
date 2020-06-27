@@ -26,10 +26,19 @@
   background-size: cover;
 }
 /*cuore*/
-/*#cuore {
-  width: 100px;
-  line-height: bottom;
-}*/
+.cuore {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  color: 	#ff0000;
+  font-size: 25px;
+ }
+
+ .box:hover .cuore {
+   display: block;
+ }
 
 
 
